@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#container{
+    background-color: black;
+    width: 360px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+#output{
+    min-width: 350px;
+    font-size: 50px;
+    background-color:#DDEDFF;
+    text-align: right;
+    display: grid;
+    height: 100px;
+}
+button{
+    color: #fefdf2f2;
+    background-color: #355374;
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+}
+#inputs{
+    border-radius: 10px;
+    height: 450px;
+    display: grid;
+    grid-template-rows: minmax(90px, auto) repeat(5, 90px);
+    grid-template-columns: repeat(4, 90px);
+}
+.operations{background-color: #223850;}
+#equals{width: 180px; background-color: #223850;}
